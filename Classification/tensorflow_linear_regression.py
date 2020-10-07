@@ -1,3 +1,4 @@
+# https://colab.research.google.com/drive/15Cyy2H7nT40sGR7TBN5wBvgTd57mVKay#forceEdit=true&sandboxMode=true&scrollTo=P4M6cZww4mZk
 from __future__ import absolute_import, division, print_function, unicode_literals
 
 import numpy as np
@@ -9,6 +10,7 @@ from six.moves import urllib
 # import tensorflow.compat.v2.feature_column as fc
 
 import tensorflow as tf
+
 dftrain = pd.read_csv('http://storage.googleapis.com/tf-datasets/titanic/train.csv') # training data
 dfeval = pd.read_csv('http://storage.googleapis.com/tf-datasets/titanic/eval.csv') # testing data
 y_train = dftrain.pop('survived')
